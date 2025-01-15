@@ -1,0 +1,343 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+/* *{
+    margin: 0;
+    padding : 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+ 
+} */
+/* body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height:100hv;
+    background-repeat: no-repeat;
+    background-size: cover;
+}  */
+
+/*  */
+.type{
+    display: flex;
+    width: 100%;
+    position:sticky;
+   
+}
+header{
+    display: flex;
+    width: 100%;
+    position: sticky;
+    top: 0; 
+    background-color: white; 
+    z-index: 1000; 
+}
+
+
+.type1{
+    
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    color: #3c4043;
+    margin-left: -30px;
+    margin-top: 15px;
+}
+
+.type1 :hover{
+   color: #1967D2;
+ }
+ 
+
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+.icons{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    justify-content:flex-end;
+    margin-left: 1200px;
+    position: fixed;
+}
+
+.icons :hover{
+    color: #1967D2;
+}
+/*  */
+
+
+ .box{
+    margin-top: 100px;
+    position: relative;
+    width: 420px;
+    height: 500px;
+    /* background:rgba#1c1c1c;  */
+    background: rgba(0, 0, 0, 0.301);
+    border-radius: 8px;
+    overflow: hidden;
+    margin-left: 490px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.5);
+    
+}
+
+
+
+.box form{
+    position: absolute;
+    inset : 4px;
+    
+    /* background-color:ger; */
+    padding: 20px 30px;
+    border-radius: 8px;
+    display: flex;
+    z-index:1;
+    flex-direction: column;
+}
+.box h2
+{
+
+    /* sign up jo likha hai uska hai */
+    color: #fff;
+    font-weight: 1000;
+    margin: 0;
+    margin-left: 20px;
+    text-align: center;
+    letter-spacing: 0.1em;
+}
+.box form .inputBox
+{
+position: relative;
+width: 300px;
+margin-top: 35px;
+margin-left: 30px;
+font-size: 20px;
+font-weight: 500;
+background-color: white;
+border-radius: 10px;
+
+}
+.box form .inputBox input
+{
+position: relative;
+width:100%;
+padding: 20px 10px 10px;
+background: transparent;
+outline: none;
+border: none;
+box-shadow: none;
+color: black;
+font-size : 1em;
+letter-spacing: 0.05em;
+transition: 0.5s;
+z-index: 10;
+}
+.box form .inputBox label
+{
+    position: absolute;
+    left: 0;
+    padding: 20px 0px 10px;
+    pointer-events: none;
+    color:#fff;
+    font-size: 1em;
+    letter-spacing: 0.05em;
+    transition: 0.5s;
+}
+.box form .inputBox input:valid~ label,
+.box form .inputBox input:focus~ label
+{
+    color: #fff;
+    font-size:0.75em;
+    transform: translateY(-34px);
+   
+}
+.box form .inputBox i
+{
+ position: absolute;
+ left: 0;
+ bottom: 0;
+ width: 100%;
+ height: 2px;
+ background: #fff;
+ border-radius: 4px;
+ overflow: hidden;
+ transition: 0.5s;
+ pointer-events: none;
+}
+/* .box form .inputBox input:valid~ i,
+.box form .inputBox input:focus~ i
+{
+    height:44px;
+} */
+.box form .links{
+    justify-content: space-between;
+    display: flex;
+   
+   
+}
+
+.box form .links {
+margin-left: 10%;
+}
+
+.box form .links a
+{
+margin:10px 0;
+
+font-size: 13px;
+color: #fff;
+text-decoration: none;
+/* margin-left: 10px; */
+
+}
+.box form .links a:hover
+{
+    color: #fff ; 
+  
+}
+
+
+.box form input[type="submit"]
+{
+    border: none;
+    outline: none;
+    padding : 9px 25px;
+    background: #fff;
+    margin-left: 20%;
+    cursor: pointer;
+    font-size: 0.9em;
+    border-radius: 4px;
+    font-weight: 600;
+    width: 190px;
+    margin-left: 23%;
+    margin-top: 15%;
+}
+.box form input[type="submit"]:hover
+{
+    background-color:#007bff;
+    color: #fff;
+}
+.box form p{
+    padding-left: 20px;
+    padding-top: -5px;
+    color: #fff;
+    font-size: 13px;
+}
+.box form .already
+{
+    padding-left: 55px;
+    
+    padding-top: 10px;
+    color:#fff;
+    font-size: 13px;
+  
+  
+    
+}
+.box .inputBox .mail{
+    min-height: 20px;
+    width: 25px;
+    padding-right: 7px;
+  
+}
+.box .inputBox .password{
+    min-height: 20px;
+    width: 25px;
+    padding-right: 4px;
+    margin-bottom: 1px;
+}
+  .box .inputBox .user{
+    min-height: 23px;
+    width: 23px;
+   
+}  */  
+
+/* .box form input[type="submit"]:active
+{
+  
+}
+
+
+
+/* last footer */
+
+/*  */
+.type{
+    display: flex;
+    width: 100%;
+    position:sticky;
+ 
+   
+}
+
+.type-last{
+    margin-top: -10px;
+}
+
+footer{
+    overflow: hidden;
+   
+}
+
+
+.type2{
+    
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    color: #3c4043;
+    margin-left: 40px;
+    margin-top: -54px;
+    margin-right: 10px;
+    justify-content: end;
+
+ 
+}
+
+.type2:hover{
+   color: #1967D2;
+ }
+ 
+
+ a{
+    text-decoration: none;
+    color: black;
+} 
+
+.icons2-end{
+    position:sticky;
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    margin-top: -10px;
+    margin-left: 1vh;
+  
+}
+
+.icons2-end :hover{
+    color: #1967D2;
+}
+
+.line{
+    border-bottom: 1px  rgba(0, 0, 0, 0);
+    margin: 100px;
+    overflow: hidden;
+}
+
+
+
+.last-img img{
+    height:4vh;
+    margin: 23px;
+    margin-left: 735px;
+    margin-top: -40px;
+
+}
+/* button */
+
+
+
